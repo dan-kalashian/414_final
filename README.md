@@ -1,4 +1,4 @@
-Files for INST 414 Final Project:
+Files for INST 414 Final Project: \n
 IPO_Date.py - API request for IPO dates 
 df_engineer.py - engineer dataframe for analysis
 vol_calc_opy.py - optimized algorithm to compute volatility and variance of volatility for each data point
