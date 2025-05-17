@@ -50,7 +50,7 @@ for sector in ['Healthcare', 'Technology', 'Financial Services', 'Real Estate', 
     X_train, X_test, y_vol_train, y_vol_test = train_test_split(X, y_vol, test_size=0.2, random_state=42)
     _, _, y_vv_train, y_vv_test = train_test_split(X, y_vv, test_size=0.2, random_state=42)
 
-    for k in [100, 200, 300, 400, 500, 750, 100]:
+    for k in [100, 200, 300, 400, 500, 750]:
 
         model_vol = KNeighborsRegressor(n_neighbors=k)
         model_vol.fit(X_train, y_vol_train)
